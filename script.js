@@ -12,3 +12,7 @@ answer [2] = prompt('What is your surname', '');
 // console.log(answer);
 
 document.write(answer);
+
+const a = prompt("Hello or hi?")
+
+console.log(a);
