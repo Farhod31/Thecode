@@ -1,22 +1,20 @@
-// const a = confirm( "Are you here?");
-
-// console.log("a");
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
 
 
-const answer = [];
+const personaMoviewlDB = {
+    count: numberOfFilms,
+    movies: [],
+    actors: [],
+    genres: {},
+    privet:false
+};
 
-answer [0] = prompt('What is your name?', '');
-answer [1] = prompt('How old are you', '');
-answer [2] = prompt('What is your surname', '');
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его', '');
 
-// console.log(answer);
+personaMoviewlDB.movies[a] = [b],
+personaMoviewlDB.movies[c] = [d];
 
-document.write(answer);
-
-const a = prompt("Hello or hi?");
-
-console.log(a);
-
-const b = confirm('Hi')
-
-console.log(b);
+console.log(personaMoviewlDB);
